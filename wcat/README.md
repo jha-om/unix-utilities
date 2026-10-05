@@ -19,3 +19,6 @@
 	- uses fflush() under the hooD
 	- RETURN => 0 success, EOF or errno for error
 	- for more details:- `man fclose`
+
+## TO RUN THE CODE:
+- `gcc -o wcat wcat.c -Wall -Werror`
