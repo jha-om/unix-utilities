@@ -26,5 +26,10 @@
 	- RETURN => 0 success, EOF or errno for error
 	- for more details:- `man fclose`
 
+- getline(lineptr, size, stream) => to get the data from the terminal
+	- reads the entire line from the stream, storing the address into lineptr
+	- RETURN => no. of characters read from the stream
+	- for more details:- `man getline`
+
 ## TO RUN THE CODE:
 - `gcc -o wgrep wgrep.c -Wall -Werror`
